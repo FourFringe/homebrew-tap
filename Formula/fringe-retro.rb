@@ -13,17 +13,17 @@
 class FringeRetro < Formula
   desc "Inspect, edit, and back up classic computer game save files"
   homepage "https://github.com/FourFringe/fringe-retro-kit"
-  version "0.2.0"
+  version "0.2.2"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/FourFringe/fringe-retro-kit/releases/download/v#{version}/fringe-retro-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "0723899794e04862d5a8d4735032be4179d486fcc654eaad656fc6acf296dc1b"
+      sha256 "29281bb5c848af5a13cfdc4588a2930fc0fd1117796005a38afb461f73030432"
     end
     on_intel do
       url "https://github.com/FourFringe/fringe-retro-kit/releases/download/v#{version}/fringe-retro-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "605e1a2c6c57dc61462843c194c27f5b76bc2f8627bc4783c7a03cfe008e3033"
+      sha256 "5670c4d04d4db09baff27b86d270422b198b9c791bd8149c592507cc102faa4f"
     end
   end
 

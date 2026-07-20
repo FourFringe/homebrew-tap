@@ -13,17 +13,17 @@
 class FringeRetro < Formula
   desc "Inspect, edit, back up, and browse world maps from classic game saves"
   homepage "https://github.com/FourFringe/fringe-retro-kit"
-  version "0.4.0"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/FourFringe/fringe-retro-kit/releases/download/v#{version}/fringe-retro-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "11b49045a07830c0826cb7850357ccad34b1e78130d1d6a5199bb13ae7610369"
+      sha256 "95999fab7537b70a3f54bb6ef4aa50bb2a3eff165feab441d098f62b5ff0a73b"
     end
     on_intel do
       url "https://github.com/FourFringe/fringe-retro-kit/releases/download/v#{version}/fringe-retro-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "7cc10f79b4236fef013b31a2faeb208a6fad7a1f89318ee2fa5b89b426e2d4ee"
+      sha256 "611a0e3d6d91c580ab342518b7ea4bf5e221040044c2d6806b958109ebec521a"
     end
   end
 
